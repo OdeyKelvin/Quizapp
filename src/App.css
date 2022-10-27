@@ -1,0 +1,68 @@
+.App {
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu input,
+button {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.quiz {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-message {
+    margin-bottom: 2px;
+}
+
+.questionlenght {
+    margin-bottom: 17px;
+}
+
+.resetbtn {
+    margin-bottom: 65px;
+}
+
+.finishquiz {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-text {
+    margin-bottom: 12px;
+}
